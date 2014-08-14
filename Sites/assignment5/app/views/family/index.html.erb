@@ -1,0 +1,14 @@
+<h1>My Family and Factorial Page</h1>
+<p>A test of the RoR family controller</p>
+<% @family.each do |member| %>
+<%= member %><br />
+<% end %>
+
+<p>The random number is shown below</p>
+<%= @result %><br />
+
+<p>The factorial of the number is shown below</p>
+<%= @factorial %><br /><br /><br />
+
+
+The current time is: <%= @time %>
